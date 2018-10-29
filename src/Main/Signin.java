@@ -30,7 +30,8 @@ public class Signin extends Application {
         this.stage1 = stage;
         splashWindow();
     }
-
+    
+    // This starts a sort of introductory window before the main Application window appears
     public void splashWindow() {
 
         try {
@@ -48,7 +49,8 @@ public class Signin extends Application {
             e.printStackTrace();
         }
     }
-
+    
+    // This method closes the splash window and allows for the Signin window to display
     public void splashWindowClose() {
         stage1.close();
     }
